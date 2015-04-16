@@ -9,7 +9,7 @@
     "component/event": "*",
     "component/link-delegate": "*",
     "pillarjs/path-to-regexp": "*",
-    "component/querystring": "*",
+    "ubergrape/querystring": "master",
     "component/url": "*",
     "ianstormtaylor/history": "*",
     "segmentio/ware": "0.3.0",
