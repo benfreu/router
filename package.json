@@ -1,8 +1,30 @@
 {
   "name": "router",
-  "private": true,
+  "description": "A nice client-side router.",
+  "version": "0.6.3",
+  "keywords": [
+    "router",
+    "push",
+    "replace",
+    "link",
+    "delegate",
+    "listen"
+  ],
+  "main": "lib/index.js",
   "dependencies": {
     "express": "~3.3.4",
-    "hbs": "~2.3.0"
-  }
+    "hbs": "~2.3.0",
+    "event": "git://github.com/npmcomponent/component-event.git",
+    "indexof": "git://github.com/npmcomponent/component-indexof.git",
+    "link-delegate": "git://github.com/npmcomponent/component-link-delegate.git",
+    "path-to-regexp": "git://github.com/npmcomponent/component-path-to-regexp.git",
+    "querystring": "git://github.com/npmcomponent/component-querystring.git",
+    "url": "git://github.com/npmcomponent/component-url.git",
+    "history": "git://github.com/npmcomponent/ianstormtaylor-history.git",
+    "ware": "git://github.com/npmcomponent/segmentio-ware.git",
+    "next-tick": "git://github.com/npmcomponent/timoxley-next-tick.git",
+    "prevent": "git://github.com/npmcomponent/yields-prevent.git",
+    "stop": "git://github.com/npmcomponent/yields-stop.git"
+  },
+  "license": "MIT"
 }
